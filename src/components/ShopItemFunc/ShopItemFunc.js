@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ShopItemFunc = (props) => {
-  const {item} = props;
-
+const ShopItemFunc = ({item}) => {
   return (
     <div className="main-content">
       <h2>{item.brand}</h2>
